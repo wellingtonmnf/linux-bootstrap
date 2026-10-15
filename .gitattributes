@@ -1,0 +1,6 @@
+# Fontes em UTF-8; preservar finais de linha Linux no material publicado.
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,63 @@
+# Publicar apenas o conjunto revisado e sua documentação de uso.
+# O restante permanece local: reports, output, tests, planos e caches.
+# Ao criar um arquivo publicável, acrescente sua exceção explicitamente.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/lmde/
+/lmde/*
+!/lmde/scripts/
+/lmde/scripts/*
+!/lmde/scripts/README.md
+!/lmde/scripts/APLICATIVOS-NATIVOS.md
+
+!/lmde/scripts/dev-tools/
+/lmde/scripts/dev-tools/*
+!/lmde/scripts/dev-tools/01 - Git.sh
+!/lmde/scripts/dev-tools/02 - Docker + Docker Compose.sh
+!/lmde/scripts/dev-tools/03 - Podman.sh
+!/lmde/scripts/dev-tools/04 - Mise.sh
+!/lmde/scripts/dev-tools/05.1 - Python (Mise).sh
+!/lmde/scripts/dev-tools/05.2 - pyenv + Python.sh
+!/lmde/scripts/dev-tools/06.1 - Node.js (Mise).sh
+!/lmde/scripts/dev-tools/06.2 - fnm + Node.js.sh
+!/lmde/scripts/dev-tools/07.1 - Java (Mise).sh
+!/lmde/scripts/dev-tools/07.2 - SDKMAN + Java.sh
+!/lmde/scripts/dev-tools/08 - PostgreSQL + pgAdmin4.sh
+!/lmde/scripts/dev-tools/09 - Warp Terminal.sh
+!/lmde/scripts/dev-tools/10 - Sublime Text.sh
+!/lmde/scripts/dev-tools/11 - VS Code.sh
+!/lmde/scripts/dev-tools/12 - Antigravity.sh
+!/lmde/scripts/dev-tools/13 - Antigravity IDE.sh
+!/lmde/scripts/dev-tools/14 - JetBrains Toolbox.sh
+!/lmde/scripts/dev-tools/15 - Zed.sh
+!/lmde/scripts/dev-tools/16 - Insomnia.sh
+!/lmde/scripts/dev-tools/MISE.md
+!/lmde/scripts/dev-tools/README.md
+
+!/lmde/scripts/user-tools/
+/lmde/scripts/user-tools/*
+!/lmde/scripts/user-tools/01 - Brave.sh
+!/lmde/scripts/user-tools/02 - Google Chrome.sh
+!/lmde/scripts/user-tools/03 - Chromium.sh
+!/lmde/scripts/user-tools/04 - Blanc Browser.sh
+!/lmde/scripts/user-tools/05 - Flatpak.sh
+!/lmde/scripts/user-tools/06 - Apps Básicos (Flatpak).sh
+!/lmde/scripts/user-tools/07 - yt-dlp.sh
+!/lmde/scripts/user-tools/08 - Discord.sh
+!/lmde/scripts/user-tools/README.md
+!/lmde/scripts/user-tools/YTDLP.md
+
+!/lmde/scripts/lib/
+/lmde/scripts/lib/*
+!/lmde/scripts/lib/apps.sh
+!/lmde/scripts/lib/common.sh
+!/lmde/scripts/lib/desktop.py
+!/lmde/scripts/lib/desktop.sh
+!/lmde/scripts/lib/flatpak.sh
+!/lmde/scripts/lib/languages.sh
+!/lmde/scripts/lib/services.sh
+!/lmde/scripts/lib/ytdlp.sh
+
+# remove-tools continua excluído: receita não revisada.
