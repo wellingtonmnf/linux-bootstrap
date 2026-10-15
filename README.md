@@ -1,3 +1,5 @@
+![Topo README.md](images/linux-bootstrap.png)
+
 # linux-bootstrap
 
 Scripts de instalação para **LMDE 7 Gigi, baseado no Debian 13 Trixie**, organizados em ferramentas de desenvolvimento e de uso geral. São receitas individuais: a numeração organiza os arquivos e não representa uma instalação automática de todos os aplicativos.
