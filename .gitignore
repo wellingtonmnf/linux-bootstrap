@@ -5,6 +5,9 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/images/
+!/images/*
+!/images/linux-bootstrap.png
 !/lmde/
 /lmde/*
 !/lmde/scripts/
